@@ -30,7 +30,7 @@ console.log("========== Course List ==========\n");
 
 for(let i =0 ; i<courses.length; i++){
     console.log(`
-        ${i+1} . ${courses[i]}
+        ${i+1}. ${courses[i]}
         `) ;
 }
 console.log(`\nTotal Courses : ${courses.length}`);
